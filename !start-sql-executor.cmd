@@ -1,0 +1,1 @@
+cd sql-executor && start sql-executor.exe

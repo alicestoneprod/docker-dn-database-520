@@ -1,0 +1,21 @@
+{
+  "name": "sql-executor",
+  "version": "1.0.0",
+  "description": "An exequtor for run SQL scripts into DB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && node index.js"
+  },
+  "bin": "index.js",
+  "keywords": [
+    "dragonnest"
+  ],
+  "author": "Alice Morozova",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.2.0",
+    "mssql": "^11.0.1"
+  }
+}

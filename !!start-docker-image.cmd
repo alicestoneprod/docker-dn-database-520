@@ -1,0 +1,1 @@
+docker run -d -e "ACCEPT_EULA=Y" --name my-mssql-server  -v sql_backups:/var/opt/mssql/Backups -p 43002:1433 dn-526-db
